@@ -65,6 +65,7 @@ Real-World Usage
         Understanding tools like Cython and Numba
 
 Summary:
+
     Key Takeaways
     Python source code is not executed directly.
     Python first tokenizes and parses the code.
@@ -75,6 +76,7 @@ Summary:
     CPython is a bytecode compiler plus a virtual machine.
 
 Interview Points:
+
     Explain why Python is often described as "interpreted" but actually uses bytecode.
     Describe the role of the AST.
     Explain what bytecode is and why it exists.
