@@ -9,21 +9,21 @@ Python Language Specification
         ├── IronPython
         └── MicroPython
 
-Why Does Python Have Multiple Implementations?
+## Why Does Python Have Multiple Implementations?
 
-    Because Python defines what the language should do, not how it must be implemented.
+- Because Python defines what the language should do, not how it must be implemented.
 
 # CPython:
 
-    The reference implementation of Python written primarily in C.
+- The reference implementation of Python written primarily in C.
 
 ## Why was it written in C?
 
-    Excellent performance
-    Direct memory access
-    Easy integration with operating systems
-    Mature compiler support
-    Portability
+- Excellent performance
+- Direct memory access
+- Easy integration with operating systems
+- Mature compiler support
+- Portability
 
 
 | Implementation | Written In | Runs On | Best Use Case |
