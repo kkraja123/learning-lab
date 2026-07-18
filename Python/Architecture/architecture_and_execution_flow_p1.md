@@ -1,6 +1,6 @@
 Python is not excecuted directly.
 
-Pipeline(8):
+# Pipeline(8):
 
     Source Code (.py) -> Python Parser -> Abstract Syntax Tree (AST) -> Python Compiler -> Bytecode (.pyc) -> Python Virtual Machine (PVM) -> Operating System -> CPU executes
 
@@ -8,13 +8,13 @@ CPython (the reference implementation) actually compiles your code to bytecode b
 
 ***A language compiled to bytecode and executed by a virtual machine.***
 
-Why bytecode?
+# Why bytecode?
     Beacuse can't use different compiler output for different OS
     Instead of different compiler it using differnt virtual machines
 
-Excecution steps:
+## Excecution steps:
 
-example: a = b+c
+# example: a = b+c
 
 1. Tokenization:
     The source code is broken into tokens. (IDENTIFIER or ASSIGN or INTEGER or NEWLINE)
@@ -47,12 +47,12 @@ example: a = b+c
 
     LOAD_NAME, LOAD_CONST, CALL, RETURN_VALUE
 
-Why is Python Slower?
+# Why is Python Slower?
 
     A Java program may execute a single CPU instruction directly.
     Python instead performs several layers
 
-Real-World Usage
+# Real-World Usage
 
     Understanding the execution pipeline helps when:
 
@@ -64,7 +64,7 @@ Real-World Usage
         Understanding why imports create .pyc files
         Understanding tools like Cython and Numba
 
-Summary:
+# Summary:
 
     Key Takeaways
     Python source code is not executed directly.
@@ -75,7 +75,7 @@ Summary:
     Bytecode provides portability across platforms.
     CPython is a bytecode compiler plus a virtual machine.
 
-Interview Points:
+# Interview Points:
 
     Explain why Python is often described as "interpreted" but actually uses bytecode.
     Describe the role of the AST.
