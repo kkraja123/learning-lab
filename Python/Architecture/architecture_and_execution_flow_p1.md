@@ -2,30 +2,30 @@ Python is not excecuted directly.
 
 ## Pipeline(8):
 
-    Source Code (.py) -> Python Parser -> Abstract Syntax Tree (AST) -> Python Compiler -> Bytecode (.pyc) -> Python Virtual Machine (PVM) -> Operating System -> CPU executes
+-Source Code (.py) -> Python Parser -> Abstract Syntax Tree (AST) -> Python Compiler -> Bytecode (.pyc) -> Python Virtual Machine (PVM) -> Operating System -> CPU executes
 
-CPython (the reference implementation) actually compiles your code to bytecode before executing it.
+-CPython (the reference implementation) actually compiles your code to bytecode before executing it.
 
 ***A language compiled to bytecode and executed by a virtual machine.***
 
 ## Why bytecode?
-    -Beacuse can't use different compiler output for different OS
-    -Instead of different compiler it using differnt virtual machines
+-Beacuse can't use different compiler output for different OS
+-Instead of different compiler it using differnt virtual machines
 
 # Excecution steps:
 
 ## example: a = b+c
 
 1. Tokenization:
-    -The source code is broken into tokens. (IDENTIFIER or ASSIGN or INTEGER or NEWLINE)
+-The source code is broken into tokens. (IDENTIFIER or ASSIGN or INTEGER or NEWLINE)
 
 2. Parsing:
-    --Python checks whether the token sequence is syntactically valid.
-    The parser rejects if syntax is incomplete. (if x >)
+-Python checks whether the token sequence is syntactically valid.
+-The parser rejects if syntax is incomplete. (if x >)
 
 3. AST (Abstract Syntax Tree):
-    -Python converts code into a tree representation.
-    -The AST captures the program's structure independent of formatting.
+-Python converts code into a tree representation.
+-The AST captures the program's structure independent of formatting.
 
             Assignment
             │
@@ -36,51 +36,51 @@ CPython (the reference implementation) actually compiles your code to bytecode b
                     └── Variable(c)
 
 4. Compilation:
-    -The AST is compiled into Python bytecode.
-    -This is not machine code; it's an instruction set for the Python Virtual Machine.
+-The AST is compiled into Python bytecode.
+-This is not machine code; it's an instruction set for the Python Virtual Machine.
         
     LOAD_NAME b, LOAD_NAME c, BINARY_ADD, STORE_NAME a
 
 5. Python Virtual Machine (PVM):
-    -The PVM executes bytecode instruction by instruction.
-    -Think of it as a CPU implemented in software.
+-The PVM executes bytecode instruction by instruction.
+-Think of it as a CPU implemented in software.
 
     LOAD_NAME, LOAD_CONST, CALL, RETURN_VALUE
 
 ## Why is Python Slower?
 
-    -A Java program may execute a single CPU instruction directly.
-    -Python instead performs several layers
+-A Java program may execute a single CPU instruction directly.
+-Python instead performs several layers
 
 ## Real-World Usage
 
-    Understanding the execution pipeline helps when:
+Understanding the execution pipeline helps when:
 
-        -Reading tracebacks
-        -Using debuggers
-        -Profiling performance
-        -Optimizing code
-        -Working with decorators and metaprogramming
-        -Understanding why imports create .pyc files
-        -Understanding tools like Cython and Numba
+-Reading tracebacks
+-Using debuggers
+-Profiling performance
+-Optimizing code
+-Working with decorators and metaprogramming
+-Understanding why imports create .pyc files
+-Understanding tools like Cython and Numba
 
 ## Summary:
 
-    -Key Takeaways
-    -Python source code is not executed directly.
-    -Python first tokenizes and parses the code.
-    -The parser produces an AST.
-    -The compiler converts the AST into bytecode.
-    -The Python Virtual Machine executes the bytecode.
-    -Bytecode provides portability across platforms.
-    -CPython is a bytecode compiler plus a virtual machine.
+-Key Takeaways
+-Python source code is not executed directly.
+-Python first tokenizes and parses the code.
+-The parser produces an AST.
+-The compiler converts the AST into bytecode.
+-The Python Virtual Machine executes the bytecode.
+-Bytecode provides portability across platforms.
+-CPython is a bytecode compiler plus a virtual machine.
 
 ## Interview Points:
 
-    1. Explain why Python is often described as "interpreted" but actually uses bytecode.
-    2. Describe the role of the AST.
-    3. Explain what bytecode is and why it exists.
-    4. Distinguish the Python compiler from the Python Virtual Machine.
+1. Explain why Python is often described as "interpreted" but actually uses bytecode.
+2. Describe the role of the AST.
+3. Explain what bytecode is and why it exists.
+4. Distinguish the Python compiler from the Python Virtual Machine.
 
 
 | Component | Responsibility | Example Error |
