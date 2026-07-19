@@ -1,5 +1,4 @@
-# Lesson 1 Summary
-# Python Architecture
+# Lesson 1 Summary - Python Architecture
 
 ## Python execution flow
 
