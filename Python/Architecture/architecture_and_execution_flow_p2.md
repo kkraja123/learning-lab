@@ -76,8 +76,8 @@ Invalid → Recompile → Update `.pyc`
 - Cache validation is timestamp-based by default.
 - Hash-based validation is also supported (PEP 552).
 
-
-
-
-
+# The Python Import System
+1. Python Reads the Import Statement
+2. Search Order
+    import math -> Already imported? -> Built-in module? -> Current project? -> Python standard library? -> Installed packages (site-packages)? -> Module Not Found
 
