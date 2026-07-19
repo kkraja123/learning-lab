@@ -13,14 +13,14 @@
 | Mutable default argument | Created only once when the function is defined, not each time it is called. |
 
 
-🌟 Most Important Lessons
+# Most Important Lessons
 
 If you remember only these six statements, you'll understand most Python behavior:
 
-Variables are names, not boxes.
-Objects live in memory; variables only refer to them.
-Assignment changes references, not objects.
-Mutable objects are modified; immutable objects are replaced.
-== compares values, is compares identities.
-Always think in terms of memory, not just syntax.
+- Variables are names, not boxes.
+- Objects live in memory; variables only refer to them.
+- Assignment changes references, not objects.
+- Mutable objects are modified; immutable objects are replaced.
+- == compares values, is compares identities.
+- Always think in terms of memory, not just syntax.
 
