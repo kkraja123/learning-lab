@@ -22,6 +22,16 @@ a = 10
 - is will check the objects are same
 - == will checck the values are same
 
+# Mutable
+- While doing the assignment(=), it will creates a new object
+- While doing the slice, it will bind the same object
+- The value cannot be changed, so that while slicing, python will not creating a new object.
+
+# Mutable
+- While doing the assignment(=), it will bind the same object
+- While doing the slice, it will creates a new object
+- The value can be changed, so that while slicing, Python will creating a new object.
+
 # Mutable vs Immutable:
 
 - A mutable object can change its internal state without changing which object a variable refers to.
