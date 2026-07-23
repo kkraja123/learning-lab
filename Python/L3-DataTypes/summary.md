@@ -1,12 +1,12 @@
-## Lesson 3 Summary
+# Lesson 3 Summary
 
-# String indexing
+## String indexing
 
 - Positive indexing
 - Negative indexing
 - IndexError
 
-# String slicing
+## String slicing
 
 - start:stop
 - Half-open interval (stop excluded)

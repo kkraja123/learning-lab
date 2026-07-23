@@ -1,4 +1,4 @@
-# float
+# Float
 
 - A float object stores an approximation of many decimal numbers, not the exact decimal value.
 
