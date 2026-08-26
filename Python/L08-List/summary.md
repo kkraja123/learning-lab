@@ -807,6 +807,8 @@ x[0] is x[1]
 
 # 17. `enumerate()`
 
+<class 'enumerate'>
+
 Instead of:
 
 ```python
