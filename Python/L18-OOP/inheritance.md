@@ -6,3 +6,4 @@ A child class can reuse common state/behavior from a parent class and then speci
 
 - To reuse common structure/behavior and specialize it in child classes
 - Python searches the parent class when it doesn't find the method in the child
+- When one class represents a specialized version of another class, we can use inheritance.
