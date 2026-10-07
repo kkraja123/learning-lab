@@ -1,8 +1,3 @@
-# Hints
-
-https://docs.google.com/spreadsheets/d/1eJ--N1SOFem4_RlAgcUH6SSPFVeKL7CWSy6ygaczmFE/edit?gid=0#gid=0
-
-
 # 867. Transpose Matrix
 # hhttps://leetcode.com/problems/transpose-matrix/description/
 
@@ -23,7 +18,4 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    print(solution.transpose())
-
-
-https://leetcode.com/problems/contiguous-array/description/
+    print(solution.transpose([[1,2,3],[4,5,6],[7,8,9]]))
