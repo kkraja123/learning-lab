@@ -27,3 +27,6 @@ if __name__ == "__main__":
 
 
 https://leetcode.com/problems/contiguous-array/description/
+
+50
+22
