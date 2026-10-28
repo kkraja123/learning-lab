@@ -2,6 +2,8 @@
 
 https://docs.google.com/spreadsheets/d/1eJ--N1SOFem4_RlAgcUH6SSPFVeKL7CWSy6ygaczmFE/edit?gid=0#gid=0
 
+https://drive.google.com/drive/folders/1wu3g6A9ptWpO05X9ppUhQNeua_xDEaaI
+
 
 # 867. Transpose Matrix
 # hhttps://leetcode.com/problems/transpose-matrix/description/
@@ -28,5 +30,13 @@ if __name__ == "__main__":
 
 https://leetcode.com/problems/contiguous-array/description/
 
+W2-D3
+
 50
 22
+
+W2-D5
+
+326
+278
+162
