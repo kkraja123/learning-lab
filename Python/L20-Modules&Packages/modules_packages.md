@@ -91,3 +91,21 @@ Store module in sys.modules
 Absolute - from payments import upi
 Relative - from . import upi
 
+Module
+ ├── import
+ ├── from ... import
+ ├── namespace
+ ├── __name__
+ ├── __main__
+ └── import caching
+
+Package
+ ├── __init__.py
+ ├── absolute imports
+ └── relative imports
+
+Import pitfalls
+ ├── sys.modules
+ ├── __pycache__
+ └── module shadowing
+
